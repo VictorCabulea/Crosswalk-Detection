@@ -6,7 +6,6 @@ import numpy as np
 # Variabila utilizata pentru eliminarea liniilor cu o panta mai mica decat aceasta valoare si mai mare decat (90 - aceasta valoare)
 REJECT_DEGREE_TH = 7.0
 
-
 def filtrareLinii(linii):
     liniiFinale = []
 
